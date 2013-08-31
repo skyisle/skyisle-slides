@@ -1,0 +1,263 @@
+<!--
+
+GDG[x] Glider based on
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/gdg_logo.png"></span>
+    </article>
+  </slide>
+
+  <slide class="title-slide segue nobackground">
+    <aside class="gdbar"><img src="images/gdg_icon_128.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>GDG란?</h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li>구글 개발자 그룹(Google Developer Group)</li>
+        <ul>
+          <li>안드로이드, 앱 엔진, 크롬 플랫폼에서부터 맵스, 유튜브, 구글 캘린더와 같은 제품 API에 이르기까지 다양한 구글 개발자 기술에 관심있는 사람들을 위한 모임</li>
+          <li><a href="https://developers.google.com/groups/directory/">https://developers.google.com/groups/directory/</a></li>
+        </ul>
+        <ul class="smaller">
+          <li>GDG Korea Android</li>
+          <li>GDG Korea Golang</li>
+          <li>GDG Korea WebTech</li>
+          <li>GDG Korea Women</li>
+          <li>GDG Busan</li>
+          <li>GDG Cheonan&Asan</li>
+          <li>GDG Daejeon</li>
+          <li>GDG Incheon</li>
+          <li>GDG Seoul</li>
+          <li>GDG Soongsil University</li>
+        </ul>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>GDG DevFest Korea 2013</h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li><a href="https://sites.google.com/site/gdgdevfestkorea/">https://sites.google.com/site/gdgdevfestkorea/</a></li>
+        <li>구글 기술을 중심으로 한 최신 정보와 경험들을 공유하는 컨퍼런스</li>
+        <li>구글 기술을 이용해 만든 다양한 결과물들을 전시하고 공유하는 HackFair</li>
+        <ul>
+          <li>평소 만들고 싶었던 것들을 만들면서</li>
+          <li>뭔가를 직접 만들면서 실수도 하고 실패도 하면서 배우며</li>
+          <li>뜨거운 열정을 불태워볼 시간</li>
+        </ul>
+        
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>HackFair 프로젝트 분류</h2>
+    </hgroup>
+    <article>
+      <ul class="build">
+        <li>Play Game Services API</li>
+        <ul>
+          <li>Google Play Game Service API 를 잘 활용한 안드로이드 / 아이폰 / 웹 앱</li>
+        </ul>
+        <li>Chrome App</li>
+        <ul>
+          <li>Chrome 웹 스토어에 등록한 Chrome App! 게임, 교육, 날씨, 소셜 종류 무관!</li>
+        </ul>
+        <li>Google Tech Startup Show</li>
+        <ul>
+          <li>Google 기술(Android, Chrome, Youtube, AppEngine, Apps)등의 기술을 사용하는 국내 Startup</li>
+        </ul>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>우대사항</h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li>창의적이면서도 실용적인 프로젝트인 경우</li>
+        <li>두 명 이상의 팀으로 개발한 경우</li>
+        <li>일찍,자주 릴리즈하고 진행 경과를 홈페이지, SNS 등을 통해 계속 공유한 경우</li>
+        <li>소스코드를 오픈소스로 공개한 경우</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide class="fill nobackground" style="background-image: url(http://farm4.staticflickr.com/3806/8936983588_ea5a51e215_o.jpg)">
+    <hgroup>
+      <h2 class="white">최우수 프로젝트 특전!</h2>
+    </hgroup>
+    <article>
+      <ul class="build white">
+        <li>Google I/O 2014 티켓, 항공권, 숙박!</li>
+      </ul>
+    </article>
+
+    <footer class="source white">http://www.flickr.com/photos/98414935@N00/8936983588/</footer>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>HackFair 2012</h2>
+    </hgroup>
+    <article>
+      <iframe height="100%" src="http://www.youtube.com/embed/d6KCstBw-N8?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>지원하기</h2>
+    </hgroup>
+    <article>
+      <iframe height="100%" src="https://sites.google.com/site/gdgdevfestkorea/hackfair/submit" frameborder="0" allowfullscreen></iframe>
+    </article>
+  </slide>
+
+
+  <slide hidden>
+    <hgroup>
+      <h2>Slide with Bullets that Build</h2>
+      <h3>Subtitle Placeholder</h3>
+    </hgroup>
+    <article>
+      <p>A list where items build:</p>
+      <ul class="build">
+        <li>Pressing 'h' highlights code snippets</li>
+        <li>Pressing 'p' toggles speaker notes (if they're on the current slide)</li>
+        <li>Pressing 'f' toggles fullscreen viewing</li>
+        <li>Pressing 'w' toggles widescreen</li>
+        <li>Pressing 'o' toggles overview mode</li>
+        <li>Pressing 'ESC' toggles off these goodies</li>
+      </ul>
+      <p>Another list, but items fade as they build:</p>
+      <ul class="build fade">
+        <li>Hover over me!</li>
+        <li>Hover over me!</li>
+        <li>Hover over me!</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide hidden>
+    <aside class="note">
+      <section>
+        <ul>
+          <li>Point I wanted to make #1</li>
+          <li>Point I wanted to make #2</li>
+          <li>Point I wanted to make #3</li>
+          <li>Example <a href="#">link</a> in notes.</li>
+        </ul>
+        <p><b>Remember to say this tag line!</b></p>
+      </section>
+    </aside>
+    <hgroup>
+      <h2>Slide with Speaker Notes</h2>
+    </hgroup>
+    <article>
+      <p>Press 'p' to toggle speaker notes.</p>
+    </article>
+  </slide>
+
+  <slide hidden class="segue dark nobackground">
+    <aside class="gdbar"><img src="images/gdg_icon_128.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Segue Slide</h2>
+      <h3>Subtitle Placeholder</h3>
+    </hgroup>
+  </slide>
+
+  <slide hidden class="segue dark quote nobackground">
+    <aside class="gdbar right bottom"><img src="images/gdg_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <q>
+        This is an example of quote text.
+      </q>
+      <div class="author">
+        Name<br>
+        Company
+      </div>
+    </article>
+  </slide>
+
+  <slide class="thank-you-slide segue nobackground">
+    <aside class="gdbar right"><img src="images/gdg_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h2>&lt;Thank You!&gt;</h2>
+    </article>
+    <p class="auto-fadein" data-config-contact>
+      <!-- populated from slide_config.json -->
+    </p>
+  </slide>
+
+  <slide class="logoslide dark nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/gdg_logo_white.png"></span>
+    </article>
+  </slide>
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
